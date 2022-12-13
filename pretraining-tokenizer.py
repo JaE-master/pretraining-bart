@@ -1,8 +1,4 @@
 """
-- Sample Command
-python pretraining-tokenizer.py --corpus_file=./tokenizer/naver_review.txt --min_frequency=5 --save_dir=./tokenizer
-python pretraining-tokenizer.py --corpus_file=/data/minjae_kim/pretraining_bart/pretrain_cleaned.txt --min_frequency=5 --save_dir=./tokenizer
-
 - References
 https://huggingface.co/
 https://blog.naver.com/PostView.naver?blogId=sooftware&logNo=222494375953&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=false&from=postView

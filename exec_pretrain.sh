@@ -6,8 +6,8 @@ python train.py --batch_size=128 --num_step=1000 --epoch=100 --seed=0 --num_work
 
 """
 python train.py --batch_size=128 --num_step=2000000 --epoch=100 --seed=0 --num_worker=4 \
---train_file=/data/minjae_kim/pretraining_bart/pretrain_cleaned.txt \
---save_path=/data/minjae_kim/pretraining_bart/saved/ \
---cache_dir=/data/minjae_kim/pretraining_bart/cache_dir/ \
+--train_file=/data/pretraining_bart/pretrain_cleaned.txt \
+--save_path=/data/pretraining_bart/saved/ \
+--cache_dir=/data/pretraining_bart/cache_dir/ \
 --tokenizer_path=./tokenizer/transformers-tok/tokenizer.json
 """
